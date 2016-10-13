@@ -7,6 +7,7 @@
 namespace Leandreaci\LaravelPermission\Model;
 
 use Illuminate\Database\Eloquent\Model;
+use App\User;
 
 class Permission extends Model
 {
@@ -24,4 +25,8 @@ class Permission extends Model
      */
     protected $table = 'permissions';
 
+    public function users()
+    {
+        return $this->belongsToMany(User::class);
+    }
 }
