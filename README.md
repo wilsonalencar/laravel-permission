@@ -64,6 +64,9 @@ class User extends Authenticatable
 4 - Check any method of your controller
 
 ```php
+
+    use Leandreaci\LaravelPermission\Facade\LaravelPermission as Permission;
+
     class FooController
     {
         public function index()
