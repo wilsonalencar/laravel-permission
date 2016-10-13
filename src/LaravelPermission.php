@@ -36,4 +36,9 @@ class LaravelPermission
         return false;
     }
 
+    public function cant($permissions,$arguments = [])
+    {
+        return ! $this->can($permissions,$arguments = []);
+    }
+
 }
