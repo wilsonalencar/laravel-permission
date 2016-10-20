@@ -65,7 +65,7 @@ class User extends Authenticatable
 
 ```php
 
-    use Leandreaci\LaravelPermission\Facade\LaravelPermission as Permission;
+    use Leandreaci\LaravelPermission\Facade\Permission;
 
     class FooController
     {
