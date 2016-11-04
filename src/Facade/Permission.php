@@ -4,7 +4,7 @@ namespace Leandreaci\LaravelPermission\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
-class LaravelPermission extends Facade
+class Permission extends Facade
 {
     /**
      * Get the registered name of the component.
