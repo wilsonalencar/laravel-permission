@@ -11,6 +11,7 @@ use App\User;
 
 class Permission extends Model
 {
+
     /**
      * The attributes that are fillable via mass assignment.
      *
