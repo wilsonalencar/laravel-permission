@@ -1,10 +1,10 @@
 {
-    "name": "leandreaci/laravel-permission",
-    "version": "0.0.4",
+    "name": "wilsonalencar/laravel-permission",
+    "version": "0.0.5",
     "description": "A Simple permission check to laravel.",
     "keywords": ["laravel","permission","easy"],
     "license": "MIT",
-    "homepage": "https://github.com/leandreaci/laravel-permission",
+    "homepage": "https://github.com/wilsonalencar/laravel-permission",
     "require": {
         "php": ">=5.6.4",
         "illuminate/database": "5.7.*",
